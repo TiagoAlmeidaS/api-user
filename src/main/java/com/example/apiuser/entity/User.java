@@ -2,13 +2,8 @@ package com.example.apiuser.entity;
 
 import com.example.apiuser.domain.UserDTO;
 import lombok.Data;
-import org.hibernate.validator.constraints.br.CNPJ;
-import org.hibernate.validator.constraints.br.CPF;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
-
-import javax.validation.constraints.Email;
-import javax.validation.constraints.NotBlank;
 
 @Data
 @Document(value = "user")

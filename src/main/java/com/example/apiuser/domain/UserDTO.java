@@ -2,10 +2,8 @@ package com.example.apiuser.domain;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Data;
-import org.hibernate.validator.constraints.br.CNPJ;
 import org.hibernate.validator.constraints.br.CPF;
 
-import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
 
 
